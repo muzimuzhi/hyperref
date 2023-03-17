@@ -76,6 +76,15 @@ width:%.\ETC.}
 class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\special{t4ht+@Css: img.math{vertical-align:middle;}}
 ...\special{t4ht+@Css: div.par-math-display, div.math-display{text-align:center;}}
+...\special{t4ht+@Css: body{ margin:1em auto; max-width:80ch; padding:0 .62em; }}
+...\special{t4ht+@Css: h1,h2,h3,h4,h5 { line-height:1.2; }}
+...\special{t4ht+@Css: @media print{ body{ max-width:none } }}
+...\special{t4ht+@Css: .partHead, likepartHead { font-size: 2em; }}
+...\special{t4ht+@Css: .chapterHead, likechapterHead { font-size: 1.7411em; }}
+...\special{t4ht+@Css: .sectionHead, likesectionHead { font-size: 1.5157em; }}
+...\special{t4ht+@Css: .subsectionHead, likesubsectionHead { font-size: 1.3195em;\ETC.}
+...\special{t4ht+@Css: .subsubsectionHead, likesubsubsectionHead { font-size: 1.1\ETC.}
+...\special{t4ht+@Css:  @media (prefers-color-scheme: dark) { img[src^="nameref"]\ETC.}
 ...\write3{\:CrossWord{)F1F-}{nameref.html}{\folio }\prcnt:ch }
 ...\special{t4ht+@Css: li p.indent { text-indent: 0em }}
 ...\special{t4ht+@Css: li p:first-child{ margin-top:0em; }}
@@ -132,6 +141,8 @@ class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\special{t4ht+@Css: .hline td, .cline td{ padding: 0; }}
 ...\special{t4ht+@Css: .hline hr, .cline hr{border:none;border-top:1px solid blac\ETC.}
 ...\special{t4ht+@Css: .hline {border-top: 1px solid black;}}
+...\special{t4ht+@Css: .hline + .vspace:last-child{display:none;}}
+...\special{t4ht+@Css: .hline:first-child{border-bottom:1px solid black;border-to\ETC.}
 ...\special{t4ht+@Css: .tabbing-right {text-align:right;}}
 ...\special{t4ht+@Css: div.float, div.figure {margin-left: auto; margin-right: au\ETC.}
 ...\special{t4ht+@Css: div.float img {text-align:center;}}
@@ -163,6 +174,7 @@ class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\special{t4ht+@Css: h1.partHead{text-align: center}}
 ...\special{t4ht+@Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-to\ETC.}
 ...\special{t4ht+@Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-t\ETC.}
+...\special{t4ht+@Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1e\ETC.}
 ...\special{t4ht+@Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-\ETC.}
 ...\special{t4ht+@Css: .subparagraphHead, .likesubparagraphHead { font-weight: bo\ETC.}
 ...\special{t4ht+@Css: .verse{white-space:nowrap; margin-left:2em}}

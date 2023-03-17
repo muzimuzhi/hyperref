@@ -3,13 +3,18 @@ Don't change this file in any respect.
 > \ref=document command:
   #1:s
 ->\IfBooleanTF {#1}{\@refstar }{\T@ref }.
+<recently read> }
+l. ...\ShowCommand\ref
 > \Ref=document command:
   #1:s
 ->\IfBooleanTF {#1}{\@Refstar }{\T@Ref }.
+<recently read> }
+l. ...\ShowCommand\Ref
 > \pageref=document command:
   #1:s
 ->\IfBooleanTF {#1}{\@pagerefstar }{\T@pageref }.
-LaTeX Warning: Reference `*' on page 1 undefined on input line ....
+<recently read> }
+l. ...\ShowCommand\pageref
 Completed box being shipped out [1]
 \vbox(633.0+0.0)x345.0
 .\hbox(0.0+0.0)x0.0
@@ -86,6 +91,15 @@ width:%.\ETC.}
 class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\special{t4ht+@Css: img.math{vertical-align:middle;}}
 ...\special{t4ht+@Css: div.par-math-display, div.math-display{text-align:center;}}
+...\special{t4ht+@Css: body{ margin:1em auto; max-width:80ch; padding:0 .62em; }}
+...\special{t4ht+@Css: h1,h2,h3,h4,h5 { line-height:1.2; }}
+...\special{t4ht+@Css: @media print{ body{ max-width:none } }}
+...\special{t4ht+@Css: .partHead, likepartHead { font-size: 2em; }}
+...\special{t4ht+@Css: .chapterHead, likechapterHead { font-size: 1.7411em; }}
+...\special{t4ht+@Css: .sectionHead, likesectionHead { font-size: 1.5157em; }}
+...\special{t4ht+@Css: .subsectionHead, likesubsectionHead { font-size: 1.3195em;\ETC.}
+...\special{t4ht+@Css: .subsubsectionHead, likesubsubsectionHead { font-size: 1.1\ETC.}
+...\special{t4ht+@Css:  @media (prefers-color-scheme: dark) { img[src^="ref1"]{fi\ETC.}
 ...\write3{\:CrossWord{)F1F-}{ref1.html}{\folio }\prcnt:ch }
 ...\special{t4ht+@Css: li p.indent { text-indent: 0em }}
 ...\special{t4ht+@Css: li p:first-child{ margin-top:0em; }}
@@ -142,6 +156,8 @@ class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\special{t4ht+@Css: .hline td, .cline td{ padding: 0; }}
 ...\special{t4ht+@Css: .hline hr, .cline hr{border:none;border-top:1px solid blac\ETC.}
 ...\special{t4ht+@Css: .hline {border-top: 1px solid black;}}
+...\special{t4ht+@Css: .hline + .vspace:last-child{display:none;}}
+...\special{t4ht+@Css: .hline:first-child{border-bottom:1px solid black;border-to\ETC.}
 ...\special{t4ht+@Css: .tabbing-right {text-align:right;}}
 ...\special{t4ht+@Css: div.float, div.figure {margin-left: auto; margin-right: au\ETC.}
 ...\special{t4ht+@Css: div.float img {text-align:center;}}
@@ -173,6 +189,7 @@ class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\special{t4ht+@Css: h1.partHead{text-align: center}}
 ...\special{t4ht+@Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-to\ETC.}
 ...\special{t4ht+@Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-t\ETC.}
+...\special{t4ht+@Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1e\ETC.}
 ...\special{t4ht+@Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-\ETC.}
 ...\special{t4ht+@Css: .subparagraphHead, .likesubparagraphHead { font-weight: bo\ETC.}
 ...\special{t4ht+@Css: .verse{white-space:nowrap; margin-left:2em}}
@@ -269,8 +286,8 @@ class="htf-calligraphy"-->++++++<!--/span-->+12}
 ...\penalty 10000
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 5.05556
-...\hbox(6.94444+1.94444)x345.0, glue set 216.24988fil
+...\glue(\baselineskip) 5.16669
+...\hbox(6.83331+1.94444)x345.0, glue set 248.88872fil
 ....\hbox(0.0+0.0)x15.0
 ....\glue -15.0
 ....\special{t4ht=<!--l. 14--><p class="noindent" >}
@@ -284,9 +301,7 @@ href="#x1-1000a">}
 ....\OT1/cmr/m/n/10 ,
 ....\special{t4ht=<a 
 href="#x1-1000a">}
-....\OT1/cmr/m/n/10 a
-....\hbox(0.0+0.0)x0.0
-.....\special{t4ht=<!--tex4ht:ref: sec:test -->}
+....\OT1/cmr/m/n/10 A
 ....\special{t4ht=</a>}
 ....\hbox(0.0+0.0)x0.0
 ....\OT1/cmr/m/n/10 ,
@@ -299,24 +314,18 @@ href="#x1-1000a">}
 ....\special{t4ht=</a>}
 ....\hbox(0.0+0.0)x0.0
 ....\glue 3.33333 plus 1.66666 minus 1.11111
-....\hbox(6.94444+0.0)x10.86105
-.....\OT1/cmr/bx/n/10 ?
-.....\OT1/cmr/bx/n/10 ?
-....\OT1/cmr/m/n/10 s
-....\OT1/cmr/m/n/10 e
-....\OT1/cmr/m/n/10 c
-....\OT1/cmr/m/n/10 :
-....\OT1/cmr/m/n/10 t
-....\OT1/cmr/m/n/10 e
-....\OT1/cmr/m/n/10 s
-....\OT1/cmr/m/n/10 t
-....\OT1/cmr/m/n/10 ,
-....\glue 20.00003
 ....\special{t4ht=<a 
 href="#x1-1000a">}
 ....\OT1/cmr/m/n/10 a
 ....\hbox(0.0+0.0)x0.0
 .....\special{t4ht=<!--tex4ht:ref: sec:test -->}
+....\special{t4ht=</a>}
+....\hbox(0.0+0.0)x0.0
+....\OT1/cmr/m/n/10 ,
+....\glue 20.00003
+....\special{t4ht=<a 
+href="#x1-1000a">}
+....\OT1/cmr/m/n/10 A
 ....\special{t4ht=</a>}
 ....\hbox(0.0+0.0)x0.0
 ....\OT1/cmr/m/n/10 ,
@@ -357,4 +366,3 @@ href="#x1-1000a">}
 ...\special{color pop}
 .\kern 0.0
 (ref1.aux)
-LaTeX Warning: There were undefined references.

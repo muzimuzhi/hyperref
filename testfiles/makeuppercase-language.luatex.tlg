@@ -127,7 +127,6 @@ Completed box being shipped out [1]
 .....\TU/lmr/m/n/10 1
 .....\glue 0.0 plus 1.0fil
 .\kern0.0
-(makeuppercase-language.aux
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line ....
+(makeuppercase-language.aux)
 Package rerunfilecheck Info: File `makeuppercase-language.out' has not changed.
 (rerunfilecheck)             Checksum: 4C7D49BA2A1A998DB05A3F610C59B0F3;184.
